@@ -1,0 +1,33 @@
+<h3>Airports : </h3>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>city</th>
+        <th>edit</th>
+        <th>delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="airport in airports">
+        <td>{{ airport.id }}</td>
+        <td>{{ airport.name }}</td>
+        <td>{{ airport.city.name }}</td>
+        <td>
+            <span class="glyphicon glyphicon-pencil"/>
+        </td>
+        <td>
+            <span class="glyphicon glyphicon-trash"/>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="8"><span class="glyphicon glyphicon-plus"></span></td>
+        <td class="number"></td>
+        <td class="number"></td>
+        <td></td>
+    </tr>
+    </tfoot>
+</table>

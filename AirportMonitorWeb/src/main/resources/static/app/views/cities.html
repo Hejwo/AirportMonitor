@@ -1,0 +1,31 @@
+<h3>Cities : </h3>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>edit</th>
+        <th>delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="city in cities">
+        <td>{{ city.id }}</td>
+        <td>{{ city.name }}</td>
+        <td>
+            <span class="glyphicon glyphicon-pencil"/>
+        </td>
+        <td>
+            <span class="glyphicon glyphicon-trash"/>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="7"><span class="glyphicon glyphicon-plus"></span></td>
+        <td class="number"></td>
+        <td class="number"></td>
+        <td></td>
+    </tr>
+    </tfoot>
+</table>
