@@ -1,4 +1,6 @@
-# AirportMonitor
+# AirportMonitor - Sample App
+
+Right now application is not been developed and plays role of sample to look at my coding style etc.
 
 ##### How to run it ?
 There are two ways :
